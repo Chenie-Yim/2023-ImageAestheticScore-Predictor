@@ -37,7 +37,7 @@ st.set_page_config(
 header = st.container()
 with header:
     st.title('Measure Aesthetic Score of Your Image')
-st.sidebar.image("/Users/user/Desktop/Projects/CMSE890 - AML/image/streamlit_image.png", use_column_width=True) ## replace
+st.sidebar.image("streamlit_image.png", use_column_width=True) ## replace
 st.sidebar.subheader("**_Welcome to the Aesthetic Score Predictor!_**")
 st.sidebar.markdown("""This app that tells you how gorgeous your images really are!
                     Our AI-powered model can predict the aesthetic score of any image you throw at it.   
@@ -45,7 +45,7 @@ st.sidebar.markdown("""This app that tells you how gorgeous your images really a
                     **_:orange[So why not give it a try?]_** Upload your images or use an image URL 
                     and see just how beautiful your shots really are.  
                     Get ready to unleash your inner artist and have a blast with our app!""")
-st.sidebar.info("Read[Github]().", icon="ℹ️") #icon = "")
+st.sidebar.info("Read[Github](https://github.com/Chenie-Yim/2023-ImageAestheticScore-Predictor).", icon="ℹ️") #icon = "")
 st.sidebar.info("Contact: [celine.yim95@gmail.com]", icon="✉️") # icon = ":email:")
 
 tab_predictor, tab_url = st.tabs(["Uploader", "Using Image URL"])
